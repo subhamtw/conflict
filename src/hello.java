@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.awt.*;
 
 public class hello {
     public static String determineGuess(int userAnswer, int computerNumber, int count){
@@ -28,5 +29,10 @@ public class hello {
                 System.out.println("NOOOOOOO");
         }
         System.out.println("This is shubham");
+        Point point = new Point();
+        point.x =10;
+        point.y=20;
+
+        System.out.println(point.toString());
     }
 }
