@@ -3,19 +3,13 @@ import java.util.Random;
 public class hello {
     public static void main(String[] args) {
         System.out.println("Hello World");
-        Random random = new Random();
-        int number = random.nextInt(3);
-        switch(number){
-            case 1:
-                System.out.println("Apple");
-                break;
-            case 2:
-                System.out.println("Mango");
-                break;
-            default:
-                System.out.println("Better Luck Next Time");
+        for (int i=0;i<10 ;i++){
+            System.out.println("this is good ");
+            if(i%2==0)
+                System.out.println("Hello");
+            else
+                System.out.println("NOOOOOOO");
         }
-
         System.out.println("This is shubham");
     }
 }
